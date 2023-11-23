@@ -24,7 +24,7 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/common/logger"
+	"github.com/skeyic/dubbo-go/common/logger"
 )
 
 // ValidateClient validates client and sets options
@@ -62,7 +62,7 @@ func ValidateClient(container clientFacade, opts ...gxetcd.Option) error {
 	return nil
 }
 
-//  nolint
+// nolint
 func NewServiceDiscoveryClient(opts ...gxetcd.Option) *gxetcd.Client {
 	options := &gxetcd.Options{
 		Heartbeat: 1, // default heartbeat

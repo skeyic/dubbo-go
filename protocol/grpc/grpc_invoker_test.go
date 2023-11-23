@@ -28,10 +28,10 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/common"
-	"dubbo.apache.org/dubbo-go/v3/protocol/grpc/internal/helloworld"
-	"dubbo.apache.org/dubbo-go/v3/protocol/grpc/internal/routeguide"
-	"dubbo.apache.org/dubbo-go/v3/protocol/invocation"
+	"github.com/skeyic/dubbo-go/common"
+	"github.com/skeyic/dubbo-go/protocol/grpc/internal/helloworld"
+	"github.com/skeyic/dubbo-go/protocol/grpc/internal/routeguide"
+	"github.com/skeyic/dubbo-go/protocol/invocation"
 )
 
 const (

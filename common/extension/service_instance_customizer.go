@@ -22,7 +22,7 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/registry"
+	"github.com/skeyic/dubbo-go/registry"
 )
 
 var customizers = make([]registry.ServiceInstanceCustomizer, 0, 8)

@@ -18,7 +18,7 @@
 package remoting
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/common"
+	"github.com/skeyic/dubbo-go/common"
 )
 
 // It is interface of server for network communication.

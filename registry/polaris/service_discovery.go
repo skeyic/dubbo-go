@@ -36,13 +36,13 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/common"
-	"dubbo.apache.org/dubbo-go/v3/common/constant"
-	"dubbo.apache.org/dubbo-go/v3/common/logger"
-	"dubbo.apache.org/dubbo-go/v3/config"
-	"dubbo.apache.org/dubbo-go/v3/registry"
-	"dubbo.apache.org/dubbo-go/v3/remoting"
-	"dubbo.apache.org/dubbo-go/v3/remoting/polaris"
+	"github.com/skeyic/dubbo-go/common"
+	"github.com/skeyic/dubbo-go/common/constant"
+	"github.com/skeyic/dubbo-go/common/logger"
+	"github.com/skeyic/dubbo-go/config"
+	"github.com/skeyic/dubbo-go/registry"
+	"github.com/skeyic/dubbo-go/remoting"
+	"github.com/skeyic/dubbo-go/remoting/polaris"
 )
 
 // newPolarisServiceDiscovery will create new service discovery instance
@@ -344,7 +344,8 @@ func convertToDeregisterInstance(namespace string, instance registry.ServiceInst
 }
 
 // doHeartbeat Since polaris does not support automatic reporting of instance heartbeats, separate logic is
-//  needed to implement it
+//
+//	needed to implement it
 func (polaris *polarisServiceDiscovery) doHeartbeat(ctx context.Context, ins *api.InstanceRegisterRequest) {
 	ticker := time.NewTicker(time.Duration(4) * time.Second)
 

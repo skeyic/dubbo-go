@@ -24,8 +24,8 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/common/extension"
-	"dubbo.apache.org/dubbo-go/v3/metrics"
+	"github.com/skeyic/dubbo-go/common/extension"
+	"github.com/skeyic/dubbo-go/metrics"
 )
 
 // MetricConfig This is the config struct for all metrics implementation

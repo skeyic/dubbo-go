@@ -27,7 +27,7 @@ import (
 )
 
 import (
-	log "dubbo.apache.org/dubbo-go/v3/common/logger"
+	log "github.com/skeyic/dubbo-go/common/logger"
 )
 
 // server is used to implement helloworld.GreeterServer.

@@ -18,7 +18,7 @@
 package internal
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/config"
+	"github.com/skeyic/dubbo-go/config"
 )
 
 func init() {

@@ -26,7 +26,7 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/common/observer"
+	"github.com/skeyic/dubbo-go/common/observer"
 )
 
 // ServiceInstancesChangedListener The Service Discovery Changed Event Listener

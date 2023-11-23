@@ -26,8 +26,8 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/cluster/cluster"
-	"dubbo.apache.org/dubbo-go/v3/common/constant"
+	"github.com/skeyic/dubbo-go/cluster/cluster"
+	"github.com/skeyic/dubbo-go/common/constant"
 )
 
 var clusters = make(map[string]func() cluster.Cluster)

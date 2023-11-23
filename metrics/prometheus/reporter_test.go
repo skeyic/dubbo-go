@@ -28,11 +28,11 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/common"
-	"dubbo.apache.org/dubbo-go/v3/common/extension"
-	"dubbo.apache.org/dubbo-go/v3/metrics"
-	"dubbo.apache.org/dubbo-go/v3/protocol"
-	"dubbo.apache.org/dubbo-go/v3/protocol/invocation"
+	"github.com/skeyic/dubbo-go/common"
+	"github.com/skeyic/dubbo-go/common/extension"
+	"github.com/skeyic/dubbo-go/metrics"
+	"github.com/skeyic/dubbo-go/protocol"
+	"github.com/skeyic/dubbo-go/protocol/invocation"
 )
 
 func TestPrometheusReporter_Report(t *testing.T) {

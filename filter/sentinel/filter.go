@@ -31,18 +31,18 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/common"
-	"dubbo.apache.org/dubbo-go/v3/common/constant"
-	"dubbo.apache.org/dubbo-go/v3/common/extension"
-	"dubbo.apache.org/dubbo-go/v3/common/logger"
-	"dubbo.apache.org/dubbo-go/v3/filter"
-	"dubbo.apache.org/dubbo-go/v3/protocol"
+	"github.com/skeyic/dubbo-go/common"
+	"github.com/skeyic/dubbo-go/common/constant"
+	"github.com/skeyic/dubbo-go/common/extension"
+	"github.com/skeyic/dubbo-go/common/logger"
+	"github.com/skeyic/dubbo-go/filter"
+	"github.com/skeyic/dubbo-go/protocol"
 )
 
 // Integrate Sentinel Go MUST HAVE:
-// 1. Must initialize Sentinel Go run environment,
+//  1. Must initialize Sentinel Go run environment,
 //     refer to https://github.com/alibaba/sentinel-golang/blob/master/api/init.go
-// 2. Register rules for resources user want to guard
+//  2. Register rules for resources user want to guard
 func init() {
 	extension.SetFilter(constant.SentinelConsumerFilterKey, newSentinelConsumerFilter)
 	extension.SetFilter(constant.SentinelProviderFilterKey, newSentinelProviderFilter)

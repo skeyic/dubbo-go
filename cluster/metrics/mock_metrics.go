@@ -30,7 +30,7 @@ import (
 )
 
 import (
-	common "dubbo.apache.org/dubbo-go/v3/common"
+	common "github.com/skeyic/dubbo-go/common"
 )
 
 // MockMetrics is a mock of Metrics interface.

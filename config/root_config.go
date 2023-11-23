@@ -33,12 +33,12 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/common"
-	"dubbo.apache.org/dubbo-go/v3/common/constant"
-	"dubbo.apache.org/dubbo-go/v3/common/extension"
-	"dubbo.apache.org/dubbo-go/v3/common/logger"
-	"dubbo.apache.org/dubbo-go/v3/config_center"
-	"dubbo.apache.org/dubbo-go/v3/metadata/service/exporter"
+	"github.com/skeyic/dubbo-go/common"
+	"github.com/skeyic/dubbo-go/common/constant"
+	"github.com/skeyic/dubbo-go/common/extension"
+	"github.com/skeyic/dubbo-go/common/logger"
+	"github.com/skeyic/dubbo-go/config_center"
+	"github.com/skeyic/dubbo-go/metadata/service/exporter"
 )
 
 var (
@@ -364,7 +364,7 @@ func exportMetadataService() {
 
 	expt := extension.GetMetadataServiceExporter(constant.DefaultKey, ms)
 	if expt == nil {
-		logger.Warnf("get metadata service exporter failed, pls check if you import _ \"dubbo.apache.org/dubbo-go/v3/metadata/service/exporter/configurable\"")
+		logger.Warnf("get metadata service exporter failed, pls check if you import _ \"github.com/skeyic/dubbo-go/metadata/service/exporter/configurable\"")
 		return
 	}
 

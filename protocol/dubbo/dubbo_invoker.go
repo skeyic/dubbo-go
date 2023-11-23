@@ -30,13 +30,13 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/common"
-	"dubbo.apache.org/dubbo-go/v3/common/constant"
-	"dubbo.apache.org/dubbo-go/v3/common/logger"
-	"dubbo.apache.org/dubbo-go/v3/config"
-	"dubbo.apache.org/dubbo-go/v3/protocol"
-	invocation_impl "dubbo.apache.org/dubbo-go/v3/protocol/invocation"
-	"dubbo.apache.org/dubbo-go/v3/remoting"
+	"github.com/skeyic/dubbo-go/common"
+	"github.com/skeyic/dubbo-go/common/constant"
+	"github.com/skeyic/dubbo-go/common/logger"
+	"github.com/skeyic/dubbo-go/config"
+	"github.com/skeyic/dubbo-go/protocol"
+	invocation_impl "github.com/skeyic/dubbo-go/protocol/invocation"
+	"github.com/skeyic/dubbo-go/remoting"
 )
 
 var attachmentKey = []string{

@@ -30,11 +30,11 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/common"
-	"dubbo.apache.org/dubbo-go/v3/common/logger"
-	"dubbo.apache.org/dubbo-go/v3/protocol"
-	"dubbo.apache.org/dubbo-go/v3/protocol/invocation"
-	rest_config "dubbo.apache.org/dubbo-go/v3/protocol/rest/config"
+	"github.com/skeyic/dubbo-go/common"
+	"github.com/skeyic/dubbo-go/common/logger"
+	"github.com/skeyic/dubbo-go/protocol"
+	"github.com/skeyic/dubbo-go/protocol/invocation"
+	rest_config "github.com/skeyic/dubbo-go/protocol/rest/config"
 )
 
 const parseParameterErrorStr = "An error occurred while parsing parameters on the server"

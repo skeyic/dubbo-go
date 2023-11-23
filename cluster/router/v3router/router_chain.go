@@ -27,15 +27,15 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/cluster/router"
-	"dubbo.apache.org/dubbo-go/v3/common"
-	conf "dubbo.apache.org/dubbo-go/v3/common/config"
-	"dubbo.apache.org/dubbo-go/v3/common/constant"
-	"dubbo.apache.org/dubbo-go/v3/common/logger"
-	"dubbo.apache.org/dubbo-go/v3/config"
-	"dubbo.apache.org/dubbo-go/v3/config_center"
-	"dubbo.apache.org/dubbo-go/v3/protocol"
-	"dubbo.apache.org/dubbo-go/v3/remoting"
+	"github.com/skeyic/dubbo-go/cluster/router"
+	"github.com/skeyic/dubbo-go/common"
+	conf "github.com/skeyic/dubbo-go/common/config"
+	"github.com/skeyic/dubbo-go/common/constant"
+	"github.com/skeyic/dubbo-go/common/logger"
+	"github.com/skeyic/dubbo-go/config"
+	"github.com/skeyic/dubbo-go/config_center"
+	"github.com/skeyic/dubbo-go/protocol"
+	"github.com/skeyic/dubbo-go/remoting"
 )
 
 // RouterChain contains all uniform router logic

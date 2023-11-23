@@ -26,7 +26,7 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/common"
+	"github.com/skeyic/dubbo-go/common"
 )
 
 func TestKey(t *testing.T) {

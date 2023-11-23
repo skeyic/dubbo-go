@@ -30,12 +30,12 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/common"
-	"dubbo.apache.org/dubbo-go/v3/common/constant"
-	"dubbo.apache.org/dubbo-go/v3/common/logger"
-	"dubbo.apache.org/dubbo-go/v3/config/instance"
-	"dubbo.apache.org/dubbo-go/v3/metadata/definition"
-	"dubbo.apache.org/dubbo-go/v3/metadata/identifier"
+	"github.com/skeyic/dubbo-go/common"
+	"github.com/skeyic/dubbo-go/common/constant"
+	"github.com/skeyic/dubbo-go/common/logger"
+	"github.com/skeyic/dubbo-go/config/instance"
+	"github.com/skeyic/dubbo-go/metadata/definition"
+	"github.com/skeyic/dubbo-go/metadata/identifier"
 )
 
 func TestMetadataReport_MetadataReportRetry(t *testing.T) {

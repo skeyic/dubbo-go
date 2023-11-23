@@ -28,8 +28,8 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/metrics"
-	"dubbo.apache.org/dubbo-go/v3/protocol"
+	"github.com/skeyic/dubbo-go/metrics"
+	"github.com/skeyic/dubbo-go/protocol"
 )
 
 func TestGetMetricReporter(t *testing.T) {

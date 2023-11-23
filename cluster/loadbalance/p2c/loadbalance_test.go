@@ -28,10 +28,10 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/cluster/metrics"
-	"dubbo.apache.org/dubbo-go/v3/common"
-	"dubbo.apache.org/dubbo-go/v3/protocol"
-	protoinvoc "dubbo.apache.org/dubbo-go/v3/protocol/invocation"
+	"github.com/skeyic/dubbo-go/cluster/metrics"
+	"github.com/skeyic/dubbo-go/common"
+	"github.com/skeyic/dubbo-go/protocol"
+	protoinvoc "github.com/skeyic/dubbo-go/protocol/invocation"
 )
 
 func TestLoadBalance(t *testing.T) {

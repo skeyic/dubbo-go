@@ -22,8 +22,8 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/common"
-	"dubbo.apache.org/dubbo-go/v3/metadata/identifier"
+	"github.com/skeyic/dubbo-go/common"
+	"github.com/skeyic/dubbo-go/metadata/identifier"
 )
 
 // MetadataReport is an interface of

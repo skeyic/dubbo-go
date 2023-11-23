@@ -18,8 +18,8 @@
 package extension
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/common"
-	"dubbo.apache.org/dubbo-go/v3/registry"
+	"github.com/skeyic/dubbo-go/common"
+	"github.com/skeyic/dubbo-go/registry"
 )
 
 var registries = make(map[string]func(config *common.URL) (registry.Registry, error))
@@ -32,7 +32,7 @@ func SetRegistry(name string, v func(_ *common.URL) (registry.Registry, error)) 
 // GetRegistry finds the registry extension with @name
 func GetRegistry(name string, config *common.URL) (registry.Registry, error) {
 	if registries[name] == nil {
-		panic("registry for " + name + " does not exist. please make sure that you have imported the package dubbo.apache.org/dubbo-go/v3/registry/" + name + ".")
+		panic("registry for " + name + " does not exist. please make sure that you have imported the package github.com/skeyic/dubbo-go/registry/" + name + ".")
 	}
 	return registries[name](config)
 }

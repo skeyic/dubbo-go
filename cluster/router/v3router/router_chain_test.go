@@ -29,10 +29,10 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/cluster/router/v3router/k8s_api"
-	"dubbo.apache.org/dubbo-go/v3/common/yaml"
-	"dubbo.apache.org/dubbo-go/v3/config"
-	"dubbo.apache.org/dubbo-go/v3/config_center"
+	"github.com/skeyic/dubbo-go/cluster/router/v3router/k8s_api"
+	"github.com/skeyic/dubbo-go/common/yaml"
+	"github.com/skeyic/dubbo-go/config"
+	"github.com/skeyic/dubbo-go/config_center"
 )
 
 const (

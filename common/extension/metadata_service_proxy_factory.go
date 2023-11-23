@@ -22,8 +22,8 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/common/constant"
-	"dubbo.apache.org/dubbo-go/v3/metadata/service"
+	"github.com/skeyic/dubbo-go/common/constant"
+	"github.com/skeyic/dubbo-go/metadata/service"
 )
 
 var metadataServiceProxyFactoryMap = make(map[string]func() service.MetadataServiceProxyFactory, 2)
@@ -46,5 +46,5 @@ func GetMetadataServiceProxyFactory(name string) service.MetadataServiceProxyFac
 	}
 	panic(fmt.Sprintf("could not find the metadata service factory creator for name: %s, "+
 		"please check whether you have imported relative packages, "+
-		"local - dubbo.apache.org/dubbo-go/v3/metadata/service/local", name))
+		"local - github.com/skeyic/dubbo-go/metadata/service/local", name))
 }

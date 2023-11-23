@@ -1,6 +1,8 @@
-module dubbo.apache.org/dubbo-go/v3
+module github.com/skeyic/dubbo-go
 
 go 1.15
+
+replace github.com/apache/dubbo-getty v1.4.7 => github.com/skeyic/dubbo-getty v1.4.7-dialipv6
 
 require (
 	contrib.go.opencensus.io/exporter/prometheus v0.4.0
@@ -12,7 +14,7 @@ require (
 	github.com/apache/dubbo-go-hessian2 v1.11.0
 	github.com/creasty/defaults v1.5.2
 	github.com/dubbogo/go-zookeeper v1.0.4-0.20211212162352-f9d2183d89d5
-	github.com/dubbogo/gost v1.11.22
+	github.com/dubbogo/gost v1.12.6-0.20220824084206-300e27e9e524
 	github.com/dubbogo/grpc-go v1.42.8
 	github.com/dubbogo/triple v1.1.8-rc2
 	github.com/emicklei/go-restful/v3 v3.7.3

@@ -23,13 +23,13 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/common/constant"
-	"dubbo.apache.org/dubbo-go/v3/common/extension"
-	"dubbo.apache.org/dubbo-go/v3/common/logger"
-	"dubbo.apache.org/dubbo-go/v3/filter"
-	_ "dubbo.apache.org/dubbo-go/v3/filter/handler"
-	_ "dubbo.apache.org/dubbo-go/v3/filter/tps/limiter"
-	"dubbo.apache.org/dubbo-go/v3/protocol"
+	"github.com/skeyic/dubbo-go/common/constant"
+	"github.com/skeyic/dubbo-go/common/extension"
+	"github.com/skeyic/dubbo-go/common/logger"
+	"github.com/skeyic/dubbo-go/filter"
+	_ "github.com/skeyic/dubbo-go/filter/handler"
+	_ "github.com/skeyic/dubbo-go/filter/tps/limiter"
+	"github.com/skeyic/dubbo-go/protocol"
 )
 
 var (

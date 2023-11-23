@@ -29,12 +29,12 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/common"
-	"dubbo.apache.org/dubbo-go/v3/common/constant"
-	"dubbo.apache.org/dubbo-go/v3/common/extension"
-	"dubbo.apache.org/dubbo-go/v3/filter"
-	"dubbo.apache.org/dubbo-go/v3/filter/tps/strategy"
-	"dubbo.apache.org/dubbo-go/v3/protocol/invocation"
+	"github.com/skeyic/dubbo-go/common"
+	"github.com/skeyic/dubbo-go/common/constant"
+	"github.com/skeyic/dubbo-go/common/extension"
+	"github.com/skeyic/dubbo-go/filter"
+	"github.com/skeyic/dubbo-go/filter/tps/strategy"
+	"github.com/skeyic/dubbo-go/protocol/invocation"
 )
 
 func TestMethodServiceTpsLimiterImplIsAllowableOnlyServiceLevel(t *testing.T) {

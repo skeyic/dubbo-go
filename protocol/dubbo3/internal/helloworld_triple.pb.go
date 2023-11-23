@@ -38,8 +38,8 @@ import (
 )
 
 import (
-	protocol "dubbo.apache.org/dubbo-go/v3/protocol"
-	invocation "dubbo.apache.org/dubbo-go/v3/protocol/invocation"
+	protocol "github.com/skeyic/dubbo-go/protocol"
+	invocation "github.com/skeyic/dubbo-go/protocol/invocation"
 )
 
 // This is a compile-time assertion to ensure that this generated file

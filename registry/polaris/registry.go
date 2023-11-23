@@ -32,14 +32,14 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/common"
-	"dubbo.apache.org/dubbo-go/v3/common/constant"
-	"dubbo.apache.org/dubbo-go/v3/common/extension"
-	"dubbo.apache.org/dubbo-go/v3/common/logger"
-	"dubbo.apache.org/dubbo-go/v3/config_center"
-	"dubbo.apache.org/dubbo-go/v3/registry"
-	"dubbo.apache.org/dubbo-go/v3/remoting"
-	"dubbo.apache.org/dubbo-go/v3/remoting/polaris"
+	"github.com/skeyic/dubbo-go/common"
+	"github.com/skeyic/dubbo-go/common/constant"
+	"github.com/skeyic/dubbo-go/common/extension"
+	"github.com/skeyic/dubbo-go/common/logger"
+	"github.com/skeyic/dubbo-go/config_center"
+	"github.com/skeyic/dubbo-go/registry"
+	"github.com/skeyic/dubbo-go/remoting"
+	"github.com/skeyic/dubbo-go/remoting/polaris"
 )
 
 var localIP = ""
@@ -252,7 +252,8 @@ func (pr *polarisRegistry) IsAvailable() bool {
 }
 
 // doHeartbeat Since polaris does not support automatic reporting of instance heartbeats, separate logic is
-//  needed to implement it
+//
+//	needed to implement it
 func (pr *polarisRegistry) doHeartbeat(ctx context.Context, ins *api.InstanceRegisterRequest) {
 	ticker := time.NewTicker(time.Duration(4) * time.Second)
 

@@ -27,14 +27,14 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/cluster/cluster/base"
-	"dubbo.apache.org/dubbo-go/v3/cluster/directory"
-	"dubbo.apache.org/dubbo-go/v3/cluster/metrics"
-	clsutils "dubbo.apache.org/dubbo-go/v3/cluster/utils"
-	"dubbo.apache.org/dubbo-go/v3/common/constant"
-	"dubbo.apache.org/dubbo-go/v3/common/extension"
-	"dubbo.apache.org/dubbo-go/v3/common/logger"
-	"dubbo.apache.org/dubbo-go/v3/protocol"
+	"github.com/skeyic/dubbo-go/cluster/cluster/base"
+	"github.com/skeyic/dubbo-go/cluster/directory"
+	"github.com/skeyic/dubbo-go/cluster/metrics"
+	clsutils "github.com/skeyic/dubbo-go/cluster/utils"
+	"github.com/skeyic/dubbo-go/common/constant"
+	"github.com/skeyic/dubbo-go/common/extension"
+	"github.com/skeyic/dubbo-go/common/logger"
+	"github.com/skeyic/dubbo-go/protocol"
 )
 
 var _ protocol.Invoker = (*adaptiveServiceClusterInvoker)(nil)

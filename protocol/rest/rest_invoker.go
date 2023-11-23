@@ -28,11 +28,11 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/common"
-	"dubbo.apache.org/dubbo-go/v3/protocol"
-	invocation_impl "dubbo.apache.org/dubbo-go/v3/protocol/invocation"
-	"dubbo.apache.org/dubbo-go/v3/protocol/rest/client"
-	"dubbo.apache.org/dubbo-go/v3/protocol/rest/config"
+	"github.com/skeyic/dubbo-go/common"
+	"github.com/skeyic/dubbo-go/protocol"
+	invocation_impl "github.com/skeyic/dubbo-go/protocol/invocation"
+	"github.com/skeyic/dubbo-go/protocol/rest/client"
+	"github.com/skeyic/dubbo-go/protocol/rest/config"
 )
 
 // nolint

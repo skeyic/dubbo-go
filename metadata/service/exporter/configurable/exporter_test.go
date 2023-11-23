@@ -26,14 +26,14 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/common"
-	_ "dubbo.apache.org/dubbo-go/v3/common/proxy/proxy_factory"
-	"dubbo.apache.org/dubbo-go/v3/config"
-	_ "dubbo.apache.org/dubbo-go/v3/filter/filter_impl"
-	"dubbo.apache.org/dubbo-go/v3/metadata/service/local"
-	_ "dubbo.apache.org/dubbo-go/v3/metrics/prometheus"
-	_ "dubbo.apache.org/dubbo-go/v3/protocol/dubbo"
-	"dubbo.apache.org/dubbo-go/v3/remoting/getty"
+	"github.com/skeyic/dubbo-go/common"
+	_ "github.com/skeyic/dubbo-go/common/proxy/proxy_factory"
+	"github.com/skeyic/dubbo-go/config"
+	_ "github.com/skeyic/dubbo-go/filter/filter_impl"
+	"github.com/skeyic/dubbo-go/metadata/service/local"
+	_ "github.com/skeyic/dubbo-go/metrics/prometheus"
+	_ "github.com/skeyic/dubbo-go/protocol/dubbo"
+	"github.com/skeyic/dubbo-go/remoting/getty"
 )
 
 func TestConfigurableExporter(t *testing.T) {

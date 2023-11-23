@@ -30,11 +30,11 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/common/constant"
-	"dubbo.apache.org/dubbo-go/v3/common/extension"
-	"dubbo.apache.org/dubbo-go/v3/common/logger"
-	"dubbo.apache.org/dubbo-go/v3/config/interfaces"
-	"dubbo.apache.org/dubbo-go/v3/protocol/rest/config"
+	"github.com/skeyic/dubbo-go/common/constant"
+	"github.com/skeyic/dubbo-go/common/extension"
+	"github.com/skeyic/dubbo-go/common/logger"
+	"github.com/skeyic/dubbo-go/config/interfaces"
+	"github.com/skeyic/dubbo-go/protocol/rest/config"
 )
 
 const REST = "rest"

@@ -22,10 +22,10 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/cluster/cluster/base"
-	"dubbo.apache.org/dubbo-go/v3/cluster/directory"
-	"dubbo.apache.org/dubbo-go/v3/common/logger"
-	"dubbo.apache.org/dubbo-go/v3/protocol"
+	"github.com/skeyic/dubbo-go/cluster/cluster/base"
+	"github.com/skeyic/dubbo-go/cluster/directory"
+	"github.com/skeyic/dubbo-go/common/logger"
+	"github.com/skeyic/dubbo-go/protocol"
 )
 
 type broadcastClusterInvoker struct {

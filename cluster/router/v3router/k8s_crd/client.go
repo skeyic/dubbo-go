@@ -38,7 +38,7 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/common/logger"
+	"github.com/skeyic/dubbo-go/common/logger"
 )
 
 type Client struct {
