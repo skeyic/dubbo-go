@@ -27,11 +27,11 @@ import (
 )
 
 import (
-	"github.com/skeyic/dubbo-go/cluster/router/v3router/judger"
-	"github.com/skeyic/dubbo-go/common"
-	"github.com/skeyic/dubbo-go/common/logger"
-	"github.com/skeyic/dubbo-go/config"
-	"github.com/skeyic/dubbo-go/protocol"
+	"dubbo.apache.org/dubbo-go/v3/cluster/router/v3router/judger"
+	"dubbo.apache.org/dubbo-go/v3/common"
+	"dubbo.apache.org/dubbo-go/v3/common/logger"
+	"dubbo.apache.org/dubbo-go/v3/config"
+	"dubbo.apache.org/dubbo-go/v3/protocol"
 )
 
 // VirtualServiceRule is item of virtual service, it aims at judge if invocation context match it's condition, and
@@ -100,7 +100,7 @@ func (r *VirtualServiceRule) tryGetSubsetFromRouterOfOneDestination(desc *config
 	return nil, 0, perrors.New("No invoker matches and no fallback destination to choose!")
 }
 
-// weightInvokersPair stores weight and invoker list.
+//weightInvokersPair stores weight and invoker list.
 type weightInvokersPair struct {
 	weight      int
 	invokerList []protocol.Invoker

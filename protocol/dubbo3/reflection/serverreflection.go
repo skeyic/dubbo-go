@@ -20,6 +20,7 @@ Package reflection implements server reflection service.
 
 The service implemented is defined in:
 https://github.com/grpc/grpc/blob/master/src/proto/grpc/reflection/v1alpha/reflection.proto.
+
 */
 package reflection
 
@@ -45,8 +46,8 @@ import (
 )
 
 import (
-	"github.com/skeyic/dubbo-go/config"
-	rpb "github.com/skeyic/dubbo-go/protocol/dubbo3/reflection/triple_reflection_v1alpha"
+	"dubbo.apache.org/dubbo-go/v3/config"
+	rpb "dubbo.apache.org/dubbo-go/v3/protocol/dubbo3/reflection/triple_reflection_v1alpha"
 )
 
 // GRPCServer is the interface provided by a gRPC server. It is implemented by

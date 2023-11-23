@@ -18,7 +18,7 @@
 package identifier
 
 import (
-	"github.com/skeyic/dubbo-go/common/constant"
+	"dubbo.apache.org/dubbo-go/v3/common/constant"
 )
 
 // SubscriberMetadataIdentifier is inherit baseMetaIdentifier with service params: Revision

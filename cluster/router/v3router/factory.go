@@ -18,8 +18,8 @@
 package v3router
 
 import (
-	"github.com/skeyic/dubbo-go/cluster/router"
-	"github.com/skeyic/dubbo-go/common/extension"
+	"dubbo.apache.org/dubbo-go/v3/cluster/router"
+	"dubbo.apache.org/dubbo-go/v3/common/extension"
 )
 
 func init() {

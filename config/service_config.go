@@ -39,12 +39,12 @@ import (
 )
 
 import (
-	"github.com/skeyic/dubbo-go/common"
-	"github.com/skeyic/dubbo-go/common/constant"
-	"github.com/skeyic/dubbo-go/common/extension"
-	"github.com/skeyic/dubbo-go/common/logger"
-	"github.com/skeyic/dubbo-go/protocol"
-	"github.com/skeyic/dubbo-go/protocol/protocolwrapper"
+	"dubbo.apache.org/dubbo-go/v3/common"
+	"dubbo.apache.org/dubbo-go/v3/common/constant"
+	"dubbo.apache.org/dubbo-go/v3/common/extension"
+	"dubbo.apache.org/dubbo-go/v3/common/logger"
+	"dubbo.apache.org/dubbo-go/v3/protocol"
+	"dubbo.apache.org/dubbo-go/v3/protocol/protocolwrapper"
 )
 
 // ServiceConfig is the configuration of the service provider
@@ -288,7 +288,7 @@ func (s *ServiceConfig) Export() error {
 			if ivkURL.GetParam(constant.InterfaceKey, "") == constant.MetadataServiceName {
 				ms, err := extension.GetLocalMetadataService("")
 				if err != nil {
-					logger.Warnf("export org.apache.dubbo.metadata.MetadataService failed beacause of %s ! pls check if you import _ \"github.com/skeyic/dubbo-go/metadata/service/local\"", err)
+					logger.Warnf("export org.apache.dubbo.metadata.MetadataService failed beacause of %s ! pls check if you import _ \"dubbo.apache.org/dubbo-go/v3/metadata/service/local\"", err)
 					return nil
 				}
 				if err := ms.SetMetadataServiceURL(ivkURL); err != nil {
@@ -308,13 +308,13 @@ func (s *ServiceConfig) Export() error {
 	return nil
 }
 
-// setRegistrySubURL set registry sub url is ivkURl
+//setRegistrySubURL set registry sub url is ivkURl
 func setRegistrySubURL(ivkURL *common.URL, regUrl *common.URL) {
 	ivkURL.AddParam(constant.RegistryKey, regUrl.GetParam(constant.RegistryKey, ""))
 	regUrl.SubURL = ivkURL
 }
 
-// loadProtocol filter protocols by ids
+//loadProtocol filter protocols by ids
 func loadProtocol(protocolIds []string, protocols map[string]*ProtocolConfig) []*ProtocolConfig {
 	returnProtocols := make([]*ProtocolConfig, 0, len(protocols))
 	for _, v := range protocolIds {

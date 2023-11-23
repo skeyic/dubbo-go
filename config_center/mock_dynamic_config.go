@@ -28,10 +28,10 @@ import (
 )
 
 import (
-	"github.com/skeyic/dubbo-go/common"
-	"github.com/skeyic/dubbo-go/common/constant"
-	"github.com/skeyic/dubbo-go/config_center/parser"
-	"github.com/skeyic/dubbo-go/remoting"
+	"dubbo.apache.org/dubbo-go/v3/common"
+	"dubbo.apache.org/dubbo-go/v3/common/constant"
+	"dubbo.apache.org/dubbo-go/v3/config_center/parser"
+	"dubbo.apache.org/dubbo-go/v3/remoting"
 )
 
 // MockDynamicConfigurationFactory defines content

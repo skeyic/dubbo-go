@@ -18,8 +18,8 @@
 package directory
 
 import (
-	"github.com/skeyic/dubbo-go/common"
-	"github.com/skeyic/dubbo-go/protocol"
+	"dubbo.apache.org/dubbo-go/v3/common"
+	"dubbo.apache.org/dubbo-go/v3/protocol"
 )
 
 // Directory

@@ -26,8 +26,8 @@ import (
 )
 
 import (
-	"github.com/skeyic/dubbo-go/common/yaml"
-	"github.com/skeyic/dubbo-go/config_center"
+	"dubbo.apache.org/dubbo-go/v3/common/yaml"
+	"dubbo.apache.org/dubbo-go/v3/config_center"
 )
 
 func TestGoConfigProcess(t *testing.T) {

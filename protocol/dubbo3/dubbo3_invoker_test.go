@@ -29,10 +29,10 @@ import (
 )
 
 import (
-	"github.com/skeyic/dubbo-go/common"
-	_ "github.com/skeyic/dubbo-go/metadata/service/exporter/configurable"
-	"github.com/skeyic/dubbo-go/protocol/dubbo3/internal"
-	"github.com/skeyic/dubbo-go/protocol/invocation"
+	"dubbo.apache.org/dubbo-go/v3/common"
+	_ "dubbo.apache.org/dubbo-go/v3/metadata/service/exporter/configurable"
+	"dubbo.apache.org/dubbo-go/v3/protocol/dubbo3/internal"
+	"dubbo.apache.org/dubbo-go/v3/protocol/invocation"
 )
 
 const (

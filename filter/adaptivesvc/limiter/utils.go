@@ -18,40 +18,38 @@
 package limiter
 
 import (
-	"github.com/skeyic/dubbo-go/common/logger"
+	"dubbo.apache.org/dubbo-go/v3/common/logger"
 )
 
-// var (
-//
+//var (
 //	decay = 0.95
 //	// cpu statistics interval (ms)
 //	statInterval time.Duration = 500
 //	cpu *atomic.Uint64
+//)
 //
-// )
+//func init() {
+//	cpu = new(atomic.Uint64)
+//	// get cpu usage statistics regularly
+//	go cpuStat()
+//}
 //
-//	func init() {
-//		cpu = new(atomic.Uint64)
-//		// get cpu usage statistics regularly
-//		go cpuStat()
-//	}
+//func cpuStat() {
+//	t := time.NewTicker(time.Microsecond * statInterval)
 //
-//	func cpuStat() {
-//		t := time.NewTicker(time.Microsecond * statInterval)
-//
-//		// prevent cpuStat method from crashing unexpectedly
-//		defer func() {
-//			t.Stop()
-//			if err := recover(); err != nil {
-//				logger.Warnf("[HillClimbing] cpuStat went down, err: %v, attempting to restart...", err)
-//				go cpuStat()
-//			}
-//		}()
-//
-//		for range t.C {
-//			stat :=
+//	// prevent cpuStat method from crashing unexpectedly
+//	defer func() {
+//		t.Stop()
+//		if err := recover(); err != nil {
+//			logger.Warnf("[HillClimbing] cpuStat went down, err: %v, attempting to restart...", err)
+//			go cpuStat()
 //		}
+//	}()
+//
+//	for range t.C {
+//		stat :=
 //	}
+//}
 func VerboseDebugf(msg string, args ...interface{}) {
 	if !Verbose {
 		return

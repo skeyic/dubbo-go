@@ -18,7 +18,7 @@
 package config_center
 
 import (
-	"github.com/skeyic/dubbo-go/common"
+	"dubbo.apache.org/dubbo-go/v3/common"
 )
 
 // DynamicConfigurationFactory gets the DynamicConfiguration

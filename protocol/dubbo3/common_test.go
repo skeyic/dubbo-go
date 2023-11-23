@@ -27,9 +27,9 @@ import (
 )
 
 import (
-	"github.com/skeyic/dubbo-go/config"
-	"github.com/skeyic/dubbo-go/protocol/dubbo3/internal"
-	"github.com/skeyic/dubbo-go/protocol/invocation"
+	"dubbo.apache.org/dubbo-go/v3/config"
+	"dubbo.apache.org/dubbo-go/v3/protocol/dubbo3/internal"
+	"dubbo.apache.org/dubbo-go/v3/protocol/invocation"
 )
 
 // userd dubbo3 biz service

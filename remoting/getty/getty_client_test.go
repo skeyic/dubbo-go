@@ -35,12 +35,13 @@ import (
 )
 
 import (
-	"github.com/skeyic/dubbo-go/common"
-	"github.com/skeyic/dubbo-go/common/proxy/proxy_factory"
-	"github.com/skeyic/dubbo-go/config"
-	"github.com/skeyic/dubbo-go/protocol"
-	"github.com/skeyic/dubbo-go/protocol/invocation"
-	"github.com/skeyic/dubbo-go/remoting"
+	"dubbo.apache.org/dubbo-go/v3/common"
+	. "dubbo.apache.org/dubbo-go/v3/common/constant"
+	"dubbo.apache.org/dubbo-go/v3/common/proxy/proxy_factory"
+	"dubbo.apache.org/dubbo-go/v3/config"
+	"dubbo.apache.org/dubbo-go/v3/protocol"
+	"dubbo.apache.org/dubbo-go/v3/protocol/invocation"
+	"dubbo.apache.org/dubbo-go/v3/remoting"
 )
 
 func TestRunSuite(t *testing.T) {

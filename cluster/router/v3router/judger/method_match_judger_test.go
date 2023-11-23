@@ -27,8 +27,8 @@ import (
 )
 
 import (
-	"github.com/skeyic/dubbo-go/config"
-	"github.com/skeyic/dubbo-go/protocol/invocation"
+	"dubbo.apache.org/dubbo-go/v3/config"
+	"dubbo.apache.org/dubbo-go/v3/protocol/invocation"
 )
 
 func TestMethodMatchJudger(t *testing.T) {

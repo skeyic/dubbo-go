@@ -26,8 +26,8 @@ import (
 )
 
 import (
-	"github.com/skeyic/dubbo-go/common/constant"
-	"github.com/skeyic/dubbo-go/metadata/service"
+	"dubbo.apache.org/dubbo-go/v3/common/constant"
+	"dubbo.apache.org/dubbo-go/v3/metadata/service"
 )
 
 type localMetadataServiceCreator func() (service.MetadataService, error)
@@ -51,5 +51,5 @@ func GetLocalMetadataService(key string) (service.MetadataService, error) {
 	}
 	return nil, perrors.New(fmt.Sprintf("could not find the metadata service creator for metadataType: local, " +
 		"please check whether you have imported relative packages, " +
-		"local - github.com/skeyic/dubbo-go/metadata/service/local"))
+		"local - dubbo.apache.org/dubbo-go/v3/metadata/service/local"))
 }

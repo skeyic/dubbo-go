@@ -30,8 +30,8 @@ import (
 )
 
 import (
-	"github.com/skeyic/dubbo-go/common/constant"
-	"github.com/skeyic/dubbo-go/common/file"
+	"dubbo.apache.org/dubbo-go/v3/common/constant"
+	"dubbo.apache.org/dubbo-go/v3/common/file"
 )
 
 type loaderConf struct {
@@ -89,7 +89,7 @@ func (fn loaderConfigFunc) apply(vc *loaderConf) {
 }
 
 // WithGenre set load config file suffix
-// Deprecated: replaced by WithSuffix
+//Deprecated: replaced by WithSuffix
 func WithGenre(suffix string) LoaderConfOption {
 	return loaderConfigFunc(func(conf *loaderConf) {
 		g := strings.ToLower(suffix)
@@ -159,7 +159,7 @@ func absolutePath(inPath string) string {
 	return ""
 }
 
-// userHomeDir get gopath
+//userHomeDir get gopath
 func userHomeDir() string {
 	if runtime.GOOS == "windows" {
 		home := os.Getenv("HOMEDRIVE") + os.Getenv("HOMEPATH")

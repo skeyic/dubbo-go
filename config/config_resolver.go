@@ -28,8 +28,8 @@ import (
 )
 
 import (
-	"github.com/skeyic/dubbo-go/common/file"
-	"github.com/skeyic/dubbo-go/config/parsers/properties"
+	"dubbo.apache.org/dubbo-go/v3/common/file"
+	"dubbo.apache.org/dubbo-go/v3/config/parsers/properties"
 )
 
 // GetConfigResolver get config resolver

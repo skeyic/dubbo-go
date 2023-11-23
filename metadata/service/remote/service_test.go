@@ -29,15 +29,15 @@ import (
 )
 
 import (
-	"github.com/skeyic/dubbo-go/common"
-	"github.com/skeyic/dubbo-go/common/extension"
-	"github.com/skeyic/dubbo-go/common/logger"
-	"github.com/skeyic/dubbo-go/config/instance"
-	"github.com/skeyic/dubbo-go/metadata/definition"
-	"github.com/skeyic/dubbo-go/metadata/identifier"
-	"github.com/skeyic/dubbo-go/metadata/report"
-	"github.com/skeyic/dubbo-go/metadata/report/factory"
-	"github.com/skeyic/dubbo-go/metadata/service/local"
+	"dubbo.apache.org/dubbo-go/v3/common"
+	"dubbo.apache.org/dubbo-go/v3/common/extension"
+	"dubbo.apache.org/dubbo-go/v3/common/logger"
+	"dubbo.apache.org/dubbo-go/v3/config/instance"
+	"dubbo.apache.org/dubbo-go/v3/metadata/definition"
+	"dubbo.apache.org/dubbo-go/v3/metadata/identifier"
+	"dubbo.apache.org/dubbo-go/v3/metadata/report"
+	"dubbo.apache.org/dubbo-go/v3/metadata/report/factory"
+	"dubbo.apache.org/dubbo-go/v3/metadata/service/local"
 )
 
 var (

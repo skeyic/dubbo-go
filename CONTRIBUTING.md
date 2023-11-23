@@ -65,7 +65,7 @@ import (
 
 // block 3: the dubbo-go package
 import (
-  "github.com/skeyic/dubbo-go/common"
+  "dubbo.apache.org/dubbo-go/v3/common"
 )
 ```
 

@@ -35,7 +35,7 @@ import (
 )
 
 import (
-	log "github.com/skeyic/dubbo-go/common/logger"
+	log "dubbo.apache.org/dubbo-go/v3/common/logger"
 )
 
 type routeGuideServer struct {

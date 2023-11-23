@@ -26,7 +26,7 @@ import (
 )
 
 import (
-	"github.com/skeyic/dubbo-go/common/file"
+	"dubbo.apache.org/dubbo-go/v3/common/file"
 )
 
 func TestCheckGenre(t *testing.T) {

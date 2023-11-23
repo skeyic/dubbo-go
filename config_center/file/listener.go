@@ -27,10 +27,10 @@ import (
 )
 
 import (
-	"github.com/skeyic/dubbo-go/common/extension"
-	"github.com/skeyic/dubbo-go/common/logger"
-	"github.com/skeyic/dubbo-go/config_center"
-	"github.com/skeyic/dubbo-go/remoting"
+	"dubbo.apache.org/dubbo-go/v3/common/extension"
+	"dubbo.apache.org/dubbo-go/v3/common/logger"
+	"dubbo.apache.org/dubbo-go/v3/config_center"
+	"dubbo.apache.org/dubbo-go/v3/remoting"
 )
 
 // CacheListener is file watcher

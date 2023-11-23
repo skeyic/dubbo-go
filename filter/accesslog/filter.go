@@ -27,11 +27,11 @@ import (
 )
 
 import (
-	"github.com/skeyic/dubbo-go/common/constant"
-	"github.com/skeyic/dubbo-go/common/extension"
-	"github.com/skeyic/dubbo-go/common/logger"
-	"github.com/skeyic/dubbo-go/filter"
-	"github.com/skeyic/dubbo-go/protocol"
+	"dubbo.apache.org/dubbo-go/v3/common/constant"
+	"dubbo.apache.org/dubbo-go/v3/common/extension"
+	"dubbo.apache.org/dubbo-go/v3/common/logger"
+	"dubbo.apache.org/dubbo-go/v3/filter"
+	"dubbo.apache.org/dubbo-go/v3/protocol"
 )
 
 const (

@@ -18,11 +18,11 @@
 package failover
 
 import (
-	clusterpkg "github.com/skeyic/dubbo-go/cluster/cluster"
-	"github.com/skeyic/dubbo-go/cluster/directory"
-	"github.com/skeyic/dubbo-go/common/constant"
-	"github.com/skeyic/dubbo-go/common/extension"
-	"github.com/skeyic/dubbo-go/protocol"
+	clusterpkg "dubbo.apache.org/dubbo-go/v3/cluster/cluster"
+	"dubbo.apache.org/dubbo-go/v3/cluster/directory"
+	"dubbo.apache.org/dubbo-go/v3/common/constant"
+	"dubbo.apache.org/dubbo-go/v3/common/extension"
+	"dubbo.apache.org/dubbo-go/v3/protocol"
 )
 
 func init() {

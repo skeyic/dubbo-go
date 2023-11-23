@@ -30,10 +30,10 @@ import (
 )
 
 import (
-	"github.com/skeyic/dubbo-go/common"
-	"github.com/skeyic/dubbo-go/common/constant"
-	"github.com/skeyic/dubbo-go/common/logger"
-	aslimiter "github.com/skeyic/dubbo-go/filter/adaptivesvc/limiter"
+	"dubbo.apache.org/dubbo-go/v3/common"
+	"dubbo.apache.org/dubbo-go/v3/common/constant"
+	"dubbo.apache.org/dubbo-go/v3/common/logger"
+	aslimiter "dubbo.apache.org/dubbo-go/v3/filter/adaptivesvc/limiter"
 )
 
 // ProviderConfig is the default configuration of service provider

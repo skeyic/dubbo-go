@@ -31,7 +31,7 @@ import (
 )
 
 import (
-	"github.com/skeyic/dubbo-go/common/logger"
+	"dubbo.apache.org/dubbo-go/v3/common/logger"
 )
 
 // RPCService the type alias of interface{}
@@ -89,10 +89,9 @@ type CallbackResponse interface{}
 type AsyncCallback func(response CallbackResponse)
 
 // for lowercase func
-//
-//	func MethodMapper() map[string][string] {
-//	    return map[string][string]{}
-//	}
+// func MethodMapper() map[string][string] {
+//     return map[string][string]{}
+// }
 const (
 	METHOD_MAPPER = "MethodMapper"
 )

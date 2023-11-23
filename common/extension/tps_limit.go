@@ -22,7 +22,7 @@ import (
 )
 
 import (
-	"github.com/skeyic/dubbo-go/filter"
+	"dubbo.apache.org/dubbo-go/v3/filter"
 )
 
 var (

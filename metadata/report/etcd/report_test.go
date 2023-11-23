@@ -31,9 +31,9 @@ import (
 )
 
 import (
-	"github.com/skeyic/dubbo-go/common"
-	"github.com/skeyic/dubbo-go/common/constant"
-	"github.com/skeyic/dubbo-go/metadata/identifier"
+	"dubbo.apache.org/dubbo-go/v3/common"
+	"dubbo.apache.org/dubbo-go/v3/common/constant"
+	"dubbo.apache.org/dubbo-go/v3/metadata/identifier"
 )
 
 const defaultEtcdV3WorkDir = "/tmp/default-dubbo-go-registry.etcd"

@@ -23,10 +23,10 @@ import (
 )
 
 import (
-	"github.com/skeyic/dubbo-go/common/constant"
-	"github.com/skeyic/dubbo-go/common/extension"
-	"github.com/skeyic/dubbo-go/filter"
-	"github.com/skeyic/dubbo-go/protocol"
+	"dubbo.apache.org/dubbo-go/v3/common/constant"
+	"dubbo.apache.org/dubbo-go/v3/common/extension"
+	"dubbo.apache.org/dubbo-go/v3/filter"
+	"dubbo.apache.org/dubbo-go/v3/protocol"
 )
 
 var (
@@ -41,8 +41,7 @@ func init() {
 // Filter health check
 // RPCService need a Echo method in consumer, if you want to use Filter
 // eg:
-//
-//	Echo func(ctx context.Context, arg interface{}, rsp *Xxx) error
+//		Echo func(ctx context.Context, arg interface{}, rsp *Xxx) error
 type echoFilter struct{}
 
 func newEchoFilter() filter.Filter {

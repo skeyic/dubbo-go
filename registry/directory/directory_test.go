@@ -28,17 +28,17 @@ import (
 )
 
 import (
-	"github.com/skeyic/dubbo-go/cluster/cluster"
-	_ "github.com/skeyic/dubbo-go/cluster/router"
-	_ "github.com/skeyic/dubbo-go/cluster/router/v3router"
-	"github.com/skeyic/dubbo-go/common"
-	"github.com/skeyic/dubbo-go/common/constant"
-	"github.com/skeyic/dubbo-go/common/extension"
-	"github.com/skeyic/dubbo-go/config"
-	"github.com/skeyic/dubbo-go/protocol/invocation"
-	"github.com/skeyic/dubbo-go/protocol/protocolwrapper"
-	"github.com/skeyic/dubbo-go/registry"
-	"github.com/skeyic/dubbo-go/remoting"
+	"dubbo.apache.org/dubbo-go/v3/cluster/cluster"
+	_ "dubbo.apache.org/dubbo-go/v3/cluster/router"
+	_ "dubbo.apache.org/dubbo-go/v3/cluster/router/v3router"
+	"dubbo.apache.org/dubbo-go/v3/common"
+	"dubbo.apache.org/dubbo-go/v3/common/constant"
+	"dubbo.apache.org/dubbo-go/v3/common/extension"
+	"dubbo.apache.org/dubbo-go/v3/config"
+	"dubbo.apache.org/dubbo-go/v3/protocol/invocation"
+	"dubbo.apache.org/dubbo-go/v3/protocol/protocolwrapper"
+	"dubbo.apache.org/dubbo-go/v3/registry"
+	"dubbo.apache.org/dubbo-go/v3/remoting"
 )
 
 func init() {

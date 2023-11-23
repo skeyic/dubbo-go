@@ -36,9 +36,9 @@ import (
 )
 
 import (
-	"github.com/skeyic/dubbo-go/common"
-	"github.com/skeyic/dubbo-go/config_center"
-	"github.com/skeyic/dubbo-go/config_center/parser"
+	"dubbo.apache.org/dubbo-go/v3/common"
+	"dubbo.apache.org/dubbo-go/v3/config_center"
+	"dubbo.apache.org/dubbo-go/v3/config_center/parser"
 )
 
 var osType = runtime.GOOS

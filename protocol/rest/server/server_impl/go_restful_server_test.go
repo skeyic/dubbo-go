@@ -26,9 +26,9 @@ import (
 )
 
 import (
-	"github.com/skeyic/dubbo-go/common"
-	"github.com/skeyic/dubbo-go/protocol/rest/config"
-	"github.com/skeyic/dubbo-go/protocol/rest/server"
+	"dubbo.apache.org/dubbo-go/v3/common"
+	"dubbo.apache.org/dubbo-go/v3/protocol/rest/config"
+	"dubbo.apache.org/dubbo-go/v3/protocol/rest/server"
 )
 
 func TestGoRestfulServerDeploySameUrl(t *testing.T) {

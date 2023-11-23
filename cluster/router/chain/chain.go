@@ -29,11 +29,11 @@ import (
 )
 
 import (
-	"github.com/skeyic/dubbo-go/cluster/router"
-	"github.com/skeyic/dubbo-go/common"
-	"github.com/skeyic/dubbo-go/common/extension"
-	"github.com/skeyic/dubbo-go/common/logger"
-	"github.com/skeyic/dubbo-go/protocol"
+	"dubbo.apache.org/dubbo-go/v3/cluster/router"
+	"dubbo.apache.org/dubbo-go/v3/common"
+	"dubbo.apache.org/dubbo-go/v3/common/extension"
+	"dubbo.apache.org/dubbo-go/v3/common/logger"
+	"dubbo.apache.org/dubbo-go/v3/protocol"
 )
 
 // RouterChain Router chain

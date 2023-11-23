@@ -21,13 +21,13 @@ package cluster_impl
 // This package may be DEPRECATED OR REMOVED in the future.
 
 import (
-	_ "github.com/skeyic/dubbo-go/cluster/cluster/adaptivesvc"
-	_ "github.com/skeyic/dubbo-go/cluster/cluster/available"
-	_ "github.com/skeyic/dubbo-go/cluster/cluster/broadcast"
-	_ "github.com/skeyic/dubbo-go/cluster/cluster/failback"
-	_ "github.com/skeyic/dubbo-go/cluster/cluster/failfast"
-	_ "github.com/skeyic/dubbo-go/cluster/cluster/failover"
-	_ "github.com/skeyic/dubbo-go/cluster/cluster/failsafe"
-	_ "github.com/skeyic/dubbo-go/cluster/cluster/forking"
-	_ "github.com/skeyic/dubbo-go/cluster/cluster/zoneaware"
+	_ "dubbo.apache.org/dubbo-go/v3/cluster/cluster/adaptivesvc"
+	_ "dubbo.apache.org/dubbo-go/v3/cluster/cluster/available"
+	_ "dubbo.apache.org/dubbo-go/v3/cluster/cluster/broadcast"
+	_ "dubbo.apache.org/dubbo-go/v3/cluster/cluster/failback"
+	_ "dubbo.apache.org/dubbo-go/v3/cluster/cluster/failfast"
+	_ "dubbo.apache.org/dubbo-go/v3/cluster/cluster/failover"
+	_ "dubbo.apache.org/dubbo-go/v3/cluster/cluster/failsafe"
+	_ "dubbo.apache.org/dubbo-go/v3/cluster/cluster/forking"
+	_ "dubbo.apache.org/dubbo-go/v3/cluster/cluster/zoneaware"
 )

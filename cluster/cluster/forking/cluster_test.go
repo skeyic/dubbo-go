@@ -33,15 +33,15 @@ import (
 )
 
 import (
-	clusterpkg "github.com/skeyic/dubbo-go/cluster/cluster"
-	"github.com/skeyic/dubbo-go/cluster/directory/static"
-	"github.com/skeyic/dubbo-go/cluster/loadbalance/roundrobin"
-	"github.com/skeyic/dubbo-go/common"
-	"github.com/skeyic/dubbo-go/common/constant"
-	"github.com/skeyic/dubbo-go/common/extension"
-	"github.com/skeyic/dubbo-go/protocol"
-	"github.com/skeyic/dubbo-go/protocol/invocation"
-	"github.com/skeyic/dubbo-go/protocol/mock"
+	clusterpkg "dubbo.apache.org/dubbo-go/v3/cluster/cluster"
+	"dubbo.apache.org/dubbo-go/v3/cluster/directory/static"
+	"dubbo.apache.org/dubbo-go/v3/cluster/loadbalance/roundrobin"
+	"dubbo.apache.org/dubbo-go/v3/common"
+	"dubbo.apache.org/dubbo-go/v3/common/constant"
+	"dubbo.apache.org/dubbo-go/v3/common/extension"
+	"dubbo.apache.org/dubbo-go/v3/protocol"
+	"dubbo.apache.org/dubbo-go/v3/protocol/invocation"
+	"dubbo.apache.org/dubbo-go/v3/protocol/mock"
 )
 
 var forkingUrl, _ = common.NewURL(

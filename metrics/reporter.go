@@ -23,7 +23,7 @@ import (
 )
 
 import (
-	"github.com/skeyic/dubbo-go/protocol"
+	"dubbo.apache.org/dubbo-go/v3/protocol"
 )
 
 type ReporterConfig struct {

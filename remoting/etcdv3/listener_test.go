@@ -33,7 +33,7 @@ import (
 )
 
 import (
-	"github.com/skeyic/dubbo-go/remoting"
+	"dubbo.apache.org/dubbo-go/v3/remoting"
 )
 
 const defaultEtcdV3WorkDir = "/tmp/default-dubbo-go-remote.etcd"

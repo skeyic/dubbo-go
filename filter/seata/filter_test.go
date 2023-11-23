@@ -27,8 +27,8 @@ import (
 )
 
 import (
-	"github.com/skeyic/dubbo-go/protocol"
-	"github.com/skeyic/dubbo-go/protocol/invocation"
+	"dubbo.apache.org/dubbo-go/v3/protocol"
+	"dubbo.apache.org/dubbo-go/v3/protocol/invocation"
 )
 
 type testMockSeataInvoker struct {

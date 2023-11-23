@@ -19,19 +19,19 @@ package config
 
 //
 //import (
-//	"github.com/skeyic/dubbo-go/config"
-//	"github.com/skeyic/dubbo-go/config/consumer"
-//	protocol2 "github.com/skeyic/dubbo-go/config/protocol"
-//	"github.com/skeyic/dubbo-go/config/provider"
-//	"github.com/skeyic/dubbo-go/config/reference"
+//	"dubbo.apache.org/dubbo-go/v3/config"
+//	"dubbo.apache.org/dubbo-go/v3/config/consumer"
+//	protocol2 "dubbo.apache.org/dubbo-go/v3/config/protocol"
+//	"dubbo.apache.org/dubbo-go/v3/config/provider"
+//	"dubbo.apache.org/dubbo-go/v3/config/reference"
 //	"testing"
 //)
 //
 //import (
-//	"github.com/skeyic/dubbo-go/common/constant"
-//	"github.com/skeyic/dubbo-go/common/extension"
-//	"github.com/skeyic/dubbo-go/filter"
-//	"github.com/skeyic/dubbo-go/protocol"
+//	"dubbo.apache.org/dubbo-go/v3/common/constant"
+//	"dubbo.apache.org/dubbo-go/v3/common/extension"
+//	"dubbo.apache.org/dubbo-go/v3/filter"
+//	"dubbo.apache.org/dubbo-go/v3/protocol"
 //)
 //
 //func TestGracefulShutdownInit(t *testing.T) {

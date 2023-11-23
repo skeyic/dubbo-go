@@ -28,10 +28,10 @@ import (
 )
 
 import (
-	"github.com/skeyic/dubbo-go/cluster/router/v3router/k8s_crd"
-	"github.com/skeyic/dubbo-go/config"
-	"github.com/skeyic/dubbo-go/config_center"
-	"github.com/skeyic/dubbo-go/remoting"
+	"dubbo.apache.org/dubbo-go/v3/cluster/router/v3router/k8s_crd"
+	"dubbo.apache.org/dubbo-go/v3/config"
+	"dubbo.apache.org/dubbo-go/v3/config_center"
+	"dubbo.apache.org/dubbo-go/v3/remoting"
 )
 
 const (

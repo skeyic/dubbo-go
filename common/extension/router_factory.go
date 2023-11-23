@@ -18,7 +18,7 @@
 package extension
 
 import (
-	"github.com/skeyic/dubbo-go/cluster/router"
+	"dubbo.apache.org/dubbo-go/v3/cluster/router"
 )
 
 var (

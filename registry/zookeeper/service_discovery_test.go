@@ -34,16 +34,16 @@ package zookeeper
 //)
 //
 //import (
-//	"github.com/skeyic/dubbo-go/common"
-//	"github.com/skeyic/dubbo-go/common/constant"
-//	"github.com/skeyic/dubbo-go/common/extension"
-//	"github.com/skeyic/dubbo-go/common/observer"
-//	"github.com/skeyic/dubbo-go/common/observer/dispatcher"
-//	"github.com/skeyic/dubbo-go/config"
-//	"github.com/skeyic/dubbo-go/metadata/mapping"
-//	"github.com/skeyic/dubbo-go/protocol"
-//	"github.com/skeyic/dubbo-go/registry"
-//	"github.com/skeyic/dubbo-go/registry/event"
+//	"dubbo.apache.org/dubbo-go/v3/common"
+//	"dubbo.apache.org/dubbo-go/v3/common/constant"
+//	"dubbo.apache.org/dubbo-go/v3/common/extension"
+//	"dubbo.apache.org/dubbo-go/v3/common/observer"
+//	"dubbo.apache.org/dubbo-go/v3/common/observer/dispatcher"
+//	"dubbo.apache.org/dubbo-go/v3/config"
+//	"dubbo.apache.org/dubbo-go/v3/metadata/mapping"
+//	"dubbo.apache.org/dubbo-go/v3/protocol"
+//	"dubbo.apache.org/dubbo-go/v3/registry"
+//	"dubbo.apache.org/dubbo-go/v3/registry/event"
 //)
 //
 //const testName = "test"

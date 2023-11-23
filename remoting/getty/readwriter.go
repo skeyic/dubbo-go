@@ -23,14 +23,16 @@ import (
 )
 
 import (
+	"github.com/apache/dubbo-getty"
+
 	hessian "github.com/apache/dubbo-go-hessian2"
 
 	perrors "github.com/pkg/errors"
 )
 
 import (
-	"github.com/skeyic/dubbo-go/common/logger"
-	"github.com/skeyic/dubbo-go/remoting"
+	"dubbo.apache.org/dubbo-go/v3/common/logger"
+	"dubbo.apache.org/dubbo-go/v3/remoting"
 )
 
 // RpcClientPackageHandler Read data from server and Write data to server

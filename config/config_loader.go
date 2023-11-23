@@ -30,10 +30,10 @@ import (
 )
 
 import (
-	"github.com/skeyic/dubbo-go/common"
-	"github.com/skeyic/dubbo-go/common/constant"
-	"github.com/skeyic/dubbo-go/common/extension"
-	"github.com/skeyic/dubbo-go/registry"
+	"dubbo.apache.org/dubbo-go/v3/common"
+	"dubbo.apache.org/dubbo-go/v3/common/constant"
+	"dubbo.apache.org/dubbo-go/v3/common/extension"
+	"dubbo.apache.org/dubbo-go/v3/registry"
 )
 
 var (
@@ -102,7 +102,8 @@ func registerServiceInstance() {
 	}
 }
 
-// // nolint
+//
+//// nolint
 func createInstance(url *common.URL) (registry.ServiceInstance, error) {
 	appConfig := GetApplicationConfig()
 	port, err := strconv.ParseInt(url.Port, 10, 32)

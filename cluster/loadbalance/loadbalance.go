@@ -18,7 +18,7 @@
 package loadbalance
 
 import (
-	"github.com/skeyic/dubbo-go/protocol"
+	"dubbo.apache.org/dubbo-go/v3/protocol"
 )
 
 // LoadBalance

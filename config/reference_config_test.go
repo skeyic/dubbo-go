@@ -19,13 +19,13 @@ package config
 
 //import (
 //	"context"
-//	"github.com/skeyic/dubbo-go/config"
-//	"github.com/skeyic/dubbo-go/config/applicationConfig"
-//	"github.com/skeyic/dubbo-go/config/base"
-//	"github.com/skeyic/dubbo-go/config/consumer"
-//	"github.com/skeyic/dubbo-go/config/instance"
-//	"github.com/skeyic/dubbo-go/config/method"
-//	registry2 "github.com/skeyic/dubbo-go/config/registry"
+//	"dubbo.apache.org/dubbo-go/v3/config"
+//	"dubbo.apache.org/dubbo-go/v3/config/applicationConfig"
+//	"dubbo.apache.org/dubbo-go/v3/config/base"
+//	"dubbo.apache.org/dubbo-go/v3/config/consumer"
+//	"dubbo.apache.org/dubbo-go/v3/config/instance"
+//	"dubbo.apache.org/dubbo-go/v3/config/method"
+//	registry2 "dubbo.apache.org/dubbo-go/v3/config/registry"
 //	"sync"
 //	"testing"
 //)
@@ -35,13 +35,13 @@ package config
 //)
 //
 //import (
-//	"github.com/skeyic/dubbo-go/cluster/cluster_impl"
-//	"github.com/skeyic/dubbo-go/common"
-//	"github.com/skeyic/dubbo-go/common/constant"
-//	"github.com/skeyic/dubbo-go/common/extension"
-//	"github.com/skeyic/dubbo-go/filter"
-//	"github.com/skeyic/dubbo-go/protocol"
-//	"github.com/skeyic/dubbo-go/registry"
+//	"dubbo.apache.org/dubbo-go/v3/cluster/cluster_impl"
+//	"dubbo.apache.org/dubbo-go/v3/common"
+//	"dubbo.apache.org/dubbo-go/v3/common/constant"
+//	"dubbo.apache.org/dubbo-go/v3/common/extension"
+//	"dubbo.apache.org/dubbo-go/v3/filter"
+//	"dubbo.apache.org/dubbo-go/v3/protocol"
+//	"dubbo.apache.org/dubbo-go/v3/registry"
 //)
 //
 //var regProtocol protocol.Protocol

@@ -18,8 +18,8 @@
 package cluster
 
 import (
-	"github.com/skeyic/dubbo-go/cluster/directory"
-	"github.com/skeyic/dubbo-go/protocol"
+	"dubbo.apache.org/dubbo-go/v3/cluster/directory"
+	"dubbo.apache.org/dubbo-go/v3/protocol"
 )
 
 // Cluster

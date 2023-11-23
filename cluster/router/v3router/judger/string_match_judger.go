@@ -23,7 +23,7 @@ import (
 )
 
 import (
-	"github.com/skeyic/dubbo-go/config"
+	"dubbo.apache.org/dubbo-go/v3/config"
 )
 
 // nolint

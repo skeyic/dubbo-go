@@ -22,9 +22,9 @@ import (
 )
 
 import (
-	"github.com/skeyic/dubbo-go/cluster/cluster/base"
-	"github.com/skeyic/dubbo-go/cluster/directory"
-	"github.com/skeyic/dubbo-go/protocol"
+	"dubbo.apache.org/dubbo-go/v3/cluster/cluster/base"
+	"dubbo.apache.org/dubbo-go/v3/cluster/directory"
+	"dubbo.apache.org/dubbo-go/v3/protocol"
 )
 
 type failfastClusterInvoker struct {

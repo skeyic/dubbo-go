@@ -26,7 +26,7 @@ import (
 )
 
 import (
-	_ "github.com/skeyic/dubbo-go/config_center/apollo"
+	_ "dubbo.apache.org/dubbo-go/v3/config_center/apollo"
 )
 
 func TestApolloConfigCenterConfig(t *testing.T) {

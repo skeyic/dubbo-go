@@ -34,8 +34,8 @@ import (
 )
 
 import (
-	"github.com/skeyic/dubbo-go/common"
-	"github.com/skeyic/dubbo-go/common/constant"
+	"dubbo.apache.org/dubbo-go/v3/common"
+	"dubbo.apache.org/dubbo-go/v3/common/constant"
 )
 
 // GetPolarisConfig get polaris config from dubbo url
@@ -77,9 +77,8 @@ func GetPolarisConfig(url *common.URL) (api.SDKContext, string, error) {
 }
 
 // mergePolarisConfiguration
-//
-//	@param easy
-//	@param complexConf
+//  @param easy
+//  @param complexConf
 func mergePolarisConfiguration(easy, complexConf config.Configuration) {
 
 	easySvrList := easy.GetGlobal().GetServerConnector().GetAddresses()

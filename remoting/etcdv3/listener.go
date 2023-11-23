@@ -33,8 +33,8 @@ import (
 )
 
 import (
-	"github.com/skeyic/dubbo-go/common/logger"
-	"github.com/skeyic/dubbo-go/remoting"
+	"dubbo.apache.org/dubbo-go/v3/common/logger"
+	"dubbo.apache.org/dubbo-go/v3/remoting"
 )
 
 // nolint
@@ -180,9 +180,8 @@ func timeSecondDuration(sec int) time.Duration {
 
 // ListenServiceEvent is invoked by etcdv3 ConsumerRegistry::Registe/ etcdv3 ConsumerRegistry::get/etcdv3 ConsumerRegistry::getListener
 // registry.go:Listen -> listenServiceEvent -> listenDirEvent -> listenServiceNodeEvent
-//
-//	|
-//	--------> listenServiceNodeEvent
+//                            |
+//                            --------> listenServiceNodeEvent
 func (l *EventListener) ListenServiceEvent(key string, listener remoting.DataListener) {
 	l.keyMapLock.RLock()
 	_, ok := l.keyMap[key]

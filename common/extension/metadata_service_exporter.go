@@ -18,9 +18,9 @@
 package extension
 
 import (
-	"github.com/skeyic/dubbo-go/common/constant"
-	"github.com/skeyic/dubbo-go/metadata/service"
-	"github.com/skeyic/dubbo-go/metadata/service/exporter"
+	"dubbo.apache.org/dubbo-go/v3/common/constant"
+	"dubbo.apache.org/dubbo-go/v3/metadata/service"
+	"dubbo.apache.org/dubbo-go/v3/metadata/service/exporter"
 )
 
 type MetadataServiceExporterCreator func(service.MetadataService) exporter.MetadataServiceExporter

@@ -30,7 +30,7 @@ import (
 )
 
 import (
-	"github.com/skeyic/dubbo-go/protocol"
+	"dubbo.apache.org/dubbo-go/v3/protocol"
 )
 
 // selector implementation of Selector:get invoker based on load balancing strategy

@@ -29,18 +29,18 @@ import (
 )
 
 import (
-	"github.com/skeyic/dubbo-go/cluster/cluster"
-	"github.com/skeyic/dubbo-go/common"
-	common_cfg "github.com/skeyic/dubbo-go/common/config"
-	"github.com/skeyic/dubbo-go/common/constant"
-	"github.com/skeyic/dubbo-go/common/extension"
-	"github.com/skeyic/dubbo-go/config"
-	"github.com/skeyic/dubbo-go/config_center"
-	"github.com/skeyic/dubbo-go/config_center/configurator"
-	"github.com/skeyic/dubbo-go/protocol"
-	"github.com/skeyic/dubbo-go/protocol/protocolwrapper"
-	"github.com/skeyic/dubbo-go/registry"
-	"github.com/skeyic/dubbo-go/remoting"
+	"dubbo.apache.org/dubbo-go/v3/cluster/cluster"
+	"dubbo.apache.org/dubbo-go/v3/common"
+	common_cfg "dubbo.apache.org/dubbo-go/v3/common/config"
+	"dubbo.apache.org/dubbo-go/v3/common/constant"
+	"dubbo.apache.org/dubbo-go/v3/common/extension"
+	"dubbo.apache.org/dubbo-go/v3/config"
+	"dubbo.apache.org/dubbo-go/v3/config_center"
+	"dubbo.apache.org/dubbo-go/v3/config_center/configurator"
+	"dubbo.apache.org/dubbo-go/v3/protocol"
+	"dubbo.apache.org/dubbo-go/v3/protocol/protocolwrapper"
+	"dubbo.apache.org/dubbo-go/v3/registry"
+	"dubbo.apache.org/dubbo-go/v3/remoting"
 )
 
 func init() {

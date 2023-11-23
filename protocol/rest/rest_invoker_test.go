@@ -31,14 +31,14 @@ package rest
 //)
 //
 //import (
-//	"github.com/skeyic/dubbo-go/common"
-//	"github.com/skeyic/dubbo-go/common/extension"
-//	"github.com/skeyic/dubbo-go/config"
-//	"github.com/skeyic/dubbo-go/protocol/invocation"
-//	"github.com/skeyic/dubbo-go/protocol/rest/client"
-//	"github.com/skeyic/dubbo-go/protocol/rest/client/client_impl"
-//	rest_config "github.com/skeyic/dubbo-go/protocol/rest/config"
-//	"github.com/skeyic/dubbo-go/protocol/rest/server/server_impl"
+//	"dubbo.apache.org/dubbo-go/v3/common"
+//	"dubbo.apache.org/dubbo-go/v3/common/extension"
+//	"dubbo.apache.org/dubbo-go/v3/config"
+//	"dubbo.apache.org/dubbo-go/v3/protocol/invocation"
+//	"dubbo.apache.org/dubbo-go/v3/protocol/rest/client"
+//	"dubbo.apache.org/dubbo-go/v3/protocol/rest/client/client_impl"
+//	rest_config "dubbo.apache.org/dubbo-go/v3/protocol/rest/config"
+//	"dubbo.apache.org/dubbo-go/v3/protocol/rest/server/server_impl"
 //)
 //
 //const (

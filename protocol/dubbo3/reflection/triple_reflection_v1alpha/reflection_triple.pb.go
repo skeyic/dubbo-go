@@ -38,9 +38,9 @@ import (
 )
 
 import (
-	protocol "github.com/skeyic/dubbo-go/protocol"
-	dubbo3 "github.com/skeyic/dubbo-go/protocol/dubbo3"
-	invocation "github.com/skeyic/dubbo-go/protocol/invocation"
+	protocol "dubbo.apache.org/dubbo-go/v3/protocol"
+	dubbo3 "dubbo.apache.org/dubbo-go/v3/protocol/dubbo3"
+	invocation "dubbo.apache.org/dubbo-go/v3/protocol/invocation"
 )
 
 // This is a compile-time assertion to ensure that this generated file

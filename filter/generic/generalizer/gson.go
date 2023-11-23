@@ -30,8 +30,8 @@ import (
 )
 
 import (
-	"github.com/skeyic/dubbo-go/common/logger"
-	"github.com/skeyic/dubbo-go/protocol/dubbo/hessian2"
+	"dubbo.apache.org/dubbo-go/v3/common/logger"
+	"dubbo.apache.org/dubbo-go/v3/protocol/dubbo/hessian2"
 )
 
 var (

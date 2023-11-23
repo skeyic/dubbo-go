@@ -29,9 +29,9 @@ import (
 )
 
 import (
-	"github.com/skeyic/dubbo-go/common/constant"
-	"github.com/skeyic/dubbo-go/common/extension"
-	"github.com/skeyic/dubbo-go/common/logger"
+	"dubbo.apache.org/dubbo-go/v3/common/constant"
+	"dubbo.apache.org/dubbo-go/v3/common/extension"
+	"dubbo.apache.org/dubbo-go/v3/common/logger"
 )
 
 /*
@@ -188,7 +188,7 @@ func waitingProviderProcessedTimeout(shutdownConfig *ShutdownConfig) {
 	}
 }
 
-// for provider. It will wait for processing receiving requests
+//for provider. It will wait for processing receiving requests
 func waitForSendingAndReceivingRequests() {
 	logger.Info("Graceful shutdown --- Keep waiting until sending/accepting requests finish or timeout. ")
 	if rootConfig == nil || rootConfig.Shutdown == nil {

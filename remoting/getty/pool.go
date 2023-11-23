@@ -28,12 +28,14 @@ import (
 )
 
 import (
+	"github.com/apache/dubbo-getty"
+
 	perrors "github.com/pkg/errors"
 )
 
 import (
-	"github.com/skeyic/dubbo-go/common/logger"
-	"github.com/skeyic/dubbo-go/config"
+	"dubbo.apache.org/dubbo-go/v3/common/logger"
+	"dubbo.apache.org/dubbo-go/v3/config"
 )
 
 type gettyRPCClient struct {

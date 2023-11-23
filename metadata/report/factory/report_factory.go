@@ -18,8 +18,8 @@
 package factory
 
 import (
-	"github.com/skeyic/dubbo-go/common"
-	"github.com/skeyic/dubbo-go/metadata/report"
+	"dubbo.apache.org/dubbo-go/v3/common"
+	"dubbo.apache.org/dubbo-go/v3/metadata/report"
 )
 
 // MetadataReportFactory interface will create metadata report
