@@ -1,6 +1,8 @@
-module dubbo.apache.org/dubbo-go/v3
+module github.com/skeyic/dubbo-go
 
 go 1.15
+
+replace github.com/apache/dubbo-getty v1.4.7 => github.com/skeyic/dubbo-getty v1.4.7-dialipv6
 
 require (
 	contrib.go.opencensus.io/exporter/prometheus v0.4.0
