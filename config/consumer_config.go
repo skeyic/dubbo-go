@@ -170,6 +170,8 @@ func (cc *ConsumerConfig) Load() {
 			break
 		}
 	}
+
+	registerStatus = true
 }
 
 // SetConsumerConfig sets consumerConfig by @c
