@@ -100,6 +100,13 @@ var (
 	}
 )
 
+func ReInitServiceMap() {
+	ServiceMap = &serviceMap{
+		serviceMap:   make(map[string]map[string]*Service),
+		interfaceMap: make(map[string][]*Service),
+	}
+}
+
 // MethodType is description of service method.
 type MethodType struct {
 	method    reflect.Method

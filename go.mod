@@ -1,4 +1,4 @@
-module dubbo.apache.org/dubbo-go/v3
+module github.com/skeyic/dubbo-go
 
 go 1.15
 

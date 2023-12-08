@@ -184,8 +184,13 @@ func (c *ProviderConfig) Load() {
 		}
 		serviceConfig.id = registeredTypeName
 		serviceConfig.Implement(service)
+		var allPass = true
 		if err := serviceConfig.Export(); err != nil {
-			logger.Errorf(fmt.Sprintf("service with registeredTypeName = %s export failed! err: %#v", registeredTypeName, err))
+			logger.Errorf(fmt.Sprintf("the service with registeredTypeName = %s export failed! err: %#v", registeredTypeName, err))
+			allPass = false
+		}
+		if allPass {
+			registerStatus = true
 		}
 	}
 }
@@ -266,4 +271,12 @@ func (pcb *ProviderConfigBuilder) SetRootConfig(rootConfig *RootConfig) *Provide
 
 func (pcb *ProviderConfigBuilder) Build() *ProviderConfig {
 	return pcb.providerConfig
+}
+
+var (
+	registerStatus bool
+)
+
+func GetRegisterStatus() bool {
+	return registerStatus
 }
